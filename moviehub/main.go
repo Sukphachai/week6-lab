@@ -9,7 +9,7 @@ import (
     "time"
     "strings"
 
-    "github.com/joho/godotenv/autoload"
+    _ "github.com/joho/godotenv/autoload"
     "github.com/jackc/pgx/v5/pgxpool"
 
     "moviehub/auth"
